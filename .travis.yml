@@ -1,4 +1,7 @@
 image: ubuntu:14.04
 language: php
-script: "php ditesh.php"
+before_install:
+  - php ditesh.php
+
+
  
